@@ -1,0 +1,35 @@
+
+
+:root{
+  --primary : #1c0503;
+}
+
+form{
+  text-align : center
+}
+
+svg {
+  position : absolute;
+  top : 1px;
+  left : 1px;
+}
+
+label{
+  display:  block;
+  width : 60px;
+  height : 40px;
+  margin : 10px auto;
+  text-align: center;
+  line-height: 35px;
+  border : 1px solid, var(--primary);
+  border-radius: 40px;
+}
+
+input{
+  width: 0;
+  height : 0;
+}
+
+span{
+  color : var(--primary)
+}
